@@ -1,0 +1,64 @@
+body{
+    background-image:url("https://cdn.wallpapersafari.com/29/73/amoISA.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    opacity:0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background 0.5s ease;
+}
+h1{
+    margin-top: ;
+    background-color: purple;
+}
+img{
+    height: 700px;
+    margin-right: 1cm;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s ease;
+}
+
+form:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
